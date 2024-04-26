@@ -20,5 +20,5 @@ class TestSolution(unittest.TestCase):
     def test_mixed_parentheses(self):
         self.assertFalse(self.solution.isValid("(){"))
 
-if __name__ == '__main__':
+if __name__ == '__main__': 
     unittest.main(argv=['first-arg-is-ignored'], exit=False)
